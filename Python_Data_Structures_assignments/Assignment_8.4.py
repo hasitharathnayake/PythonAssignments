@@ -1,3 +1,5 @@
+#This program reads a text file and prints an ordered list of non repeating words. 
+
 file_name=input('Enter file name:') #ask user for file name
 
 file_path=open(file_name)#open the file name input given by the user
