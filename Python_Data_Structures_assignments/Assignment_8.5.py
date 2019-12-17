@@ -1,4 +1,4 @@
-#This program finds the keyword 'From' and then strips out email addresses from a textfile.
+#This program finds the keyword 'From' and slice out email addresses from a textfile.
 
 file_name=input("Enter File Name/Full Path: ")
 try:
