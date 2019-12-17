@@ -10,7 +10,7 @@ count=0
 email_list=list()
 for line in file_handle:
     words=line.split()
-    if 'From' in words:
+    if 'From' in words:#look for "the string 'From' in the list words
         email=words[1:2]
         #if email in email_list: continue #optional redundant value elimination
         email_list.append(email)
