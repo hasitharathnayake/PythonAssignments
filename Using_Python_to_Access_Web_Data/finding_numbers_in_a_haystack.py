@@ -14,7 +14,7 @@ for lines in fhandle:
     if re.search('[0-9]+',lines):
         nums=re.findall('[0-9]+',lines)
         for num in nums:
-            i=int(num)
+            num=int(num)
             intl.append(num)
 
 print(intl)
