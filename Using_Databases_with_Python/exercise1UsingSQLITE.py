@@ -15,6 +15,7 @@ INSERT INTO Ages (name, age) VALUES ('Kellsey', 20);
 INSERT INTO Ages (name, age) VALUES ('Youer', 22);
 INSERT INTO Ages (name, age) VALUES ('Elody', 25);'''
 
+#Format data to avoid seperate entry
 sqlcmds=data.split(';')
 cleanSqlcmds=list()
 for item in sqlcmds[1:-1]:
