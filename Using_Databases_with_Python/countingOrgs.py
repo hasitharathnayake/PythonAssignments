@@ -43,8 +43,9 @@ for elements in fhand:
             cur.execute('UPDATE Counts SET count=count+1 WHERE org=?',(org,))
 connection.commit()
 
-#print out results
+#print out the result
 for row in cur.execute('SELECT org, count FROM Counts ORDER BY count DESC'):
     print(str(row[0]), row[1])
 
+#close connection
 cur.close()
