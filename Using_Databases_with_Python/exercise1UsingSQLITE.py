@@ -21,7 +21,7 @@ cleanSqlcmds=list()
 for item in sqlcmds[1:-1]:
     item=item.strip('\n')
     cur.execute(item)
-#commit to disk
+#commit to disk not needed only use in intervals
 connection.commit()
 
 #view db
